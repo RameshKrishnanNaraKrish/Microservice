@@ -1,6 +1,5 @@
-pipeline { 
+pipeline {
     agent any
-
     stages {
         stage('Build & Tag Docker Image') {
             steps {
@@ -11,7 +10,6 @@ pipeline {
                 }
             }
         }
-        
         stage('Push Docker Image') {
             steps {
                 script {
