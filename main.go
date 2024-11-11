@@ -51,6 +51,7 @@ var (
 		"CAD": true,
 		"JPY": true,
 		"GBP": true,
+		"INR": true,
 		"TRY": true}
 )
 
