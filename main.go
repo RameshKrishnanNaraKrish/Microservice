@@ -36,7 +36,7 @@ import (
 
 const (
 	port            = "8080"
-	defaultCurrency = "INR"
+	defaultCurrency = "USD"
 	cookieMaxAge    = 60 * 60 * 48
 
 	cookiePrefix    = "shop_"
@@ -51,7 +51,6 @@ var (
 		"CAD": true,
 		"JPY": true,
 		"GBP": true,
-		"INR": true,
 		"TRY": true}
 )
 
